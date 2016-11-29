@@ -1,0 +1,217 @@
+{
+	"bcm":{
+		"loginUrl" : {
+			"default" : "https://pbank.95559.com.cn/personbank/logon.jsp?show=old",
+            "credit"   : "https://creditcardapp.bankcomm.com/idm/sso/login.html"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"boc":{
+		"loginUrl" : {
+			"default" : "https://ebsnew.boc.cn/boc15/login.html",
+			"cardnum" : "https://ebsnew.boc.cn/boc15/login.html"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"abc":{
+		"loginUrl" : {
+			"default" : "https://perbank.abchina.com/SelfBank/netBank/zh_CN/entrance/logonself.aspx/netBank/zh_CN/entrance/logonSelf.aspx"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"icbc":{
+		"loginUrl" : {
+			"default" : "https://mybank.icbc.com.cn/icbc/newperbank/perbank3/frame/frame_index.jsp"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"ccb":{
+		"loginUrl" : {
+			"v5"      : "https://ibsbjstar.ccb.com.cn/app/V5/CN/STY1/login.jsp",
+			"credit"  : "http://login.ccb.com/tran/WCCMainPlatV5?CCB_IBSVersion=V5&SERVLET_NAME=WCCMainPlatV5&TXCODE=L10001&tourl=http://creditcard.ccb.com#0",
+			"default" : "https://ibsbjstar.ccb.com.cn/CCBIS/V6/STY1/CN/login.jsp"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"cmb":{
+		"loginUrl" : {
+			"default" : "https://pbsz.ebank.cmbchina.com/CmbBank_GenShell/UI/GenShellPC/Login/LoginOLD.aspx"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"spdb":{
+		"loginUrl" : {
+			"default" : "https://ebank.spdb.com.cn/nbper/prelogin.do#",
+			"credit"   : "https://cardsonline.spdbccc.com.cn/icard/icardlogin.do"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"cebc" : {
+		"loginUrl" : {
+			"default" : "https://www.cebbank.com/per/prePerlogin.do?_locale=zh_CN"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	}, 
+	"cmbc" : {
+		"loginUrl" : {
+			"default" : "https://nper.cmbc.com.cn/pweb/static/login.html"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"cncb" : {
+		"loginUrl" : {
+			"default" : "https://i.bank.ecitic.com/perbank6/signIn.do"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},	
+	"cib" : {
+		"loginUrl" : {
+			"default" : "https://personalbank.cib.com.cn/pers/main/login.do"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"psbc" : {
+		"loginUrl" : {
+			"default" : "https://pbank.psbc.com/pweb/prelogin.do?_locale=zh_CN&BankId=9999"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},	
+	"cgb" : {
+		"loginUrl" : {
+			"default" : "https://ebanks.cgbchina.com.cn/perbank/"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"hxb" : {
+		"loginUrl" : {
+			"default" : "https://sbank.hxb.com.cn/easybanking/jsp/indexComm.jsp"
+		},
+		"phoneUrl" : {
+			"default" : ""		
+		},
+		"errorUrl" : {
+			"default" : ""		
+		},
+		"mainUrl"  : {
+			"default" : ""		
+		}
+	},
+	"bosh" : {
+		"loginUrl" : {
+			"default" : "https://ebanks.bankofshanghai.com/pweb/prelogin.do?LoginType=R&_locale=zh_CN"
+		},
+		"phoneUrl" : {
+			"default" : ""
+		},
+		"errorUrl" : {
+			"default" : ""
+		},
+		"mainUrl"  : {
+			"default" : ""
+		}
+	}
+}

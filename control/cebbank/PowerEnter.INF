@@ -1,0 +1,24 @@
+; INF file for PowerEnter
+[version] 
+; version signature (same for both NT and Win95) do not remove
+signature="$CHICAGO$"
+AdvancedINF=2.0
+
+[Add.Code]
+PowerEnter.ocx=PowerEnter.ocx
+PECIN.dll=PECIN.dll
+
+[PECIN.dll]
+file-win32-x86=thiscab
+FileVersion=1,0,0,8
+destdir=11
+
+[PowerEnter.ocx]
+file-win32-x86=thiscab
+FileVersion=1,0,0,72
+RegisterServer=yes
+
+[Strings]
+Provider="CSII Special For CEBBANK"
+
+; end of INF file

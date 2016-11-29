@@ -1,0 +1,52 @@
+[Version]
+Signature = "$Chicago$"
+AdvancedINF=2.5
+
+[DefaultInstall]
+CopyFiles=files
+RegisterOCXs=RegisterFiles
+
+[DefaultUninstall]
+cleanup=1
+DelFiles=files
+UnRegisterOCXs=RegisterFiles
+
+[SourceDisksNames]
+1 = %DiskName%,"InputControl.dll",0
+1 = %DiskName%,"SubmitControl.dll",0
+1 = %DiskName%,"inputcontrolrc",0
+
+[SourceDisksFiles]
+InputControl.dll=1
+SubmitControl.dll=1
+inputcontrolrc=1
+
+[InputControl.dll]
+file-win32-x86=thiscab
+Clsid={73E4740C-08EB-4133-896B-8D0A7C9EE3CD}
+RegisterServer=yes
+FileVersion=1,0,0,27
+
+[SubmitControl.dll]
+file-win32-x86=thiscab
+clsid={8D9E0B29-563C-4226-86C1-5FF2AE77E1D2}
+RegisterServer=yes
+FileVersion=1,0,0,12
+
+[inputcontrolrc]
+file-win32-x86=thiscab
+
+[RegisterFiles]
+%11%\InputControl.dll
+%11%\SubmitControl.dll
+
+[DestinationDirs]
+files=11
+
+[files]
+inputcontrolrc
+InputControl.dll
+SubmitControl.dll
+
+[Strings]
+DiskName = "SecurityEdit"

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<body ver="1">
+  <Dama2SoftwareName>NetWorkOCRWrapper</Dama2SoftwareName>
+  <Dama2SoftwareId>40780</Dama2SoftwareId>
+  <Dama2Key>4a38085bd11e8a1736a5096d0d30c650</Dama2Key>
+  <Dama2Username>pajinke</Dama2Username>
+  <Dama2Password>123!@#</Dama2Password>
+  <Dama2PictTypeId>54</Dama2PictTypeId>
+  <ZMSoftwareId>2130</ZMSoftwareId>
+  <ZMKey>ddc56496ec979685e9fdd1da5424ba44</ZMKey>
+  <ZMUsername>pajinke</ZMUsername>
+  <ZMPassword>123!@#</ZMPassword>
+  <ZMPictTypeId>8547</ZMPictTypeId>
+  <SequenceOfDama2>1</SequenceOfDama2>
+  <SequenceOfZM>2</SequenceOfZM>
+  <DisableDama2>0</DisableDama2>
+  <DisableZM>0</DisableZM>
+  <ListenPort>3339</ListenPort>
+</body>

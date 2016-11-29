@@ -1,0 +1,36 @@
+[Version]
+Signature = "$Chicago$"
+AdvancedINF=2.5
+
+[DefaultInstall]
+CopyFiles=files
+RegisterOCXs=RegisterFiles
+
+[DefaultUninstall]
+cleanup=1
+Delfiles=files
+UnRegisterOCXs=RegisterFiles
+
+[SourceDisksNames]
+1 = %DiskName%,"icbcclean.dll",0
+
+[SourceDisksFiles]
+icbcclean.dll=1
+
+[RegisterFiles]
+%11%\icbcclean.dll
+
+[icbcclean.dll]
+file-win32-x86=thiscab
+Clsid={36C9539B-49D2-01C7-9C6D-10DACDFEA59C}
+RegisterServer=yes
+FileVersion=1,0,0,5
+
+[DestinationDirs]
+files=11
+
+[files]
+icbcclean.dll
+
+[Strings]
+DiskName = "icbcclean"

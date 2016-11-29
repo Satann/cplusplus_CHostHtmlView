@@ -1,0 +1,17 @@
+ssh logop@172.24.10.216
+
+sh jump167.sh #enter production
+
+tar czf LoginBot.log /cygdrive/c/Users/hyc/AppData/Local/
+
+tar czf cebc-logs.tar.gz $(find  /cygdrive/c/Users/hyc/AppData/Local/ -type f -iname "LoginBot-*.cebc.*.log")
+
+exit  # exit from production
+
+sh scp167.sh cebc-logs.tar.gz 
+
+exit # exit from 216
+
+sh scp216.sh 167/cebc-logs.tar.gz ./
+
+
